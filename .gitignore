@@ -2,6 +2,15 @@
 Thumbs.db
 ehthumbs.db
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Mac custom attributes file (Desktop Service Store)
+.DS_Store
+
 # Folder config file
 Desktop.ini
 
