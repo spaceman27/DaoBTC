@@ -1,0 +1,27 @@
+#
+####### example-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+tweepy
+pymongo
+flask-restful
+Flask-Pymongo
+pytest
+coverage
+pytest-cov
+#
+###### Requirements with Version Specifiers ######
+#   See https://www.python.org/dev/peps/pep-0440/#version-specifiers
+
+#
+###### Refer to other requirements files ######
+
+#
+#
+###### A particular file ######
+
+#
+###### Additional Requirements without Version Specifiers ######
+#   Same as 1st section, just here to show that you can put things in any order.
+
+#
