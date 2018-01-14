@@ -1,3 +1,5 @@
+#H1 Project Guide Line
+
 Setup:
     Setup Python 3.6+
     Setup PyCharm as IDE
@@ -28,7 +30,7 @@ Architecture
         FLASK-REST
 
 Code Guide Line:
-    Documentation
+    Documentation:
         Code comment need to follow convention for help generation to work
         Add hint check annotation
             Default docstring is "reStructure text"
@@ -50,19 +52,19 @@ Code Guide Line:
         Follow https://docs.pytest.org/en/latest/goodpractices.html#goodpractices
         Naming by convention: test_*.py or *_test.py
         Test Coverage
-            pytest tool:
+            pytest tool
                 python -m pytest --cov-report html --cov [modulename]
             unittest tool
                 run unitest: python -m coverage run -m unittest
                 see report: python -m coverage report
                 export as html: python -m coverage html
 
-    Distribute & Deployment
+    Distribute & Deployment:
         https://packaging.python.org/tutorials/distributing-packages/#requirements-for-packaging-and-distributing
-        Production:
+        Production
             https://caremad.io/posts/2013/07/setup-vs-requirement/
             python setup.py sdist --format zip
-            in end machine:
+            in end machine
                 pip uninstall package.zip
                 pip install package.zip
             Other option is UI Exe packaging tool
