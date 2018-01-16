@@ -1,5 +1,5 @@
 from DataAccess.db import DBContext
-
+from pprint import pprint
 
 class DbConfig:
     __ctx = DBContext()
@@ -15,4 +15,8 @@ class DbConfig:
         """
 
         search_terms = 'search_terms'
-        return self.__ctx.find_all(search_terms)
+        t = self.__ctx.find_all(search_terms)
+        return list(map(lambda x:x["keyword"], t))
+
+
+

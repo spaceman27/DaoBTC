@@ -80,3 +80,9 @@ class DBContext:
         """
         collection = self.__db[collection]
         return collection.find({"$text": {"$search": keyword}})
+
+# db = DBContext()
+# t = db.find_all("search_terms")
+# pprint(t)
+# for i in t:
+#     pprint(i)

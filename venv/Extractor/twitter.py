@@ -113,11 +113,11 @@ class TwitterExtractor(AbsParser):
             print("Storing Status to DB done")
         except ServerSelectionTimeoutError as e:
             print("Failed to store status to DB !!")
-            raise
+            raise e
 
-        # Fulltext search base on filter dictionary
+        # Fulltext search base on filter list
         for keyword in filter_words:
-            result = self.__ctx.search(self.__processing_tweets, keyword['keyword'])
+            result = self.__ctx.search(self.__processing_tweets, keyword)
             for message in result:
                 pprint(message)
 

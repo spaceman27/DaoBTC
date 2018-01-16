@@ -17,4 +17,4 @@ class ParserFactory:
         :return: void
         :rtype: Void
         """
-        self.parsetype.process(filter, count)
+        self.parsetype.process(filter_words, count)
