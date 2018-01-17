@@ -28,7 +28,9 @@
         [Compare DJANGO and FLASK](https://www.excella.com/insights/creating-a-restful-api-django-rest-framework-vs-flask)        
         Flask (0.12.2 Released 2017-05-16) is “a microframework for Python based on Werkzeug, Jinja 2 and good intentions.” Includes a built-in development server, unit tesing support, and is fully Unicode-enabled with RESTful request dispatching and WSGI compliance.
     API
-        FLASK-REST
+        CONNEXION (Restful api Build on top of Flask with Swagger support)
+        Flask-Injector: Dependencies Injection
+        Avron: Serialization library like Json.net 
 
 #### Code Guide Line:
     > Documentation:
