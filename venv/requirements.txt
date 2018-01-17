@@ -4,7 +4,9 @@
 ###### Requirements without Version Specifiers ######
 tweepy
 pymongo
-flask-restful
+connexion
+Flask-Injector
+avro
 Flask-Pymongo
 pytest
 coverage

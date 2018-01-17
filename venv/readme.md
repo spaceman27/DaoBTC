@@ -32,7 +32,7 @@
 
 #### Code Guide Line:
     > Documentation:
-        Code comment need to follow convention for help generation to work
+        Code comment need to follow convention for help generation to work properly
         Add hint check annotation
             Default docstring is "reStructure text"
             Helpful for Unit test and collaboration

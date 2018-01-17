@@ -16,7 +16,7 @@ class DbConfig:
 
         search_terms = 'search_terms'
         t = self.__ctx.find_all(search_terms)
-        return list(map(lambda x:x["keyword"], t))
+        return list(map(lambda x: x["keyword"], t))
 
 
 

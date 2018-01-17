@@ -120,6 +120,7 @@ class TwitterExtractor(AbsParser):
             result = self.__ctx.search(self.__processing_tweets, keyword)
             for message in result:
                 pprint(message)
+        print('total %s result', len(filter_words))
 
     def get_retweet(self, post_id, filter_words, count=1):
         data = self.__api.retweets(post_id, count)
